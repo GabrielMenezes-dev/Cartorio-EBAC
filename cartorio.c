@@ -131,6 +131,7 @@ int main()
 		printf("\t1 - Registrar nomes \n\n");
 		printf("\t2 - Consultar cpf \n\n");
 		printf("\t3 - Deletar nomes \n\n");
+		printf("\t4 - Sair do cartório \n\n");
 		printf("Opção: ");//fim do menu
 
 		scanf("%d",&opcao);
@@ -148,6 +149,11 @@ int main()
 
 			case 3:
 				deletar();
+				break;
+			
+			case 4:
+				printf("Obrigado por utilizar o sistema");
+				return 0;
 				break;
 
 			default://ultimo caso
